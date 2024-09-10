@@ -1,2 +1,5 @@
-alert('This is a webiste template, you should proabibly change it. ;)')
-console.log('Hello world.\nI see you here >:)')
+for (let i = 1; i <= 16;i++){
+    let Div = document.createElement('div')
+    document.body.appendChild(Div)
+    Div.textContent = i.toString()
+}
