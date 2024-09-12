@@ -1,3 +1,14 @@
 body {
-    font-size: 150px;
+    font-size: 50px;
+}
+
+#column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#row {
+    background-color: lightgrey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
 }
