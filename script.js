@@ -1,8 +1,8 @@
-for (let i = 1; i <= 16;i++) {
+for (let i = 1; i <= 32;i++) {
     let Div = document.createElement('div')
     let thing = document.body.appendChild(Div)
     Div.id = "column"
-    for (let j = 1; j <= 16;j++) {
+    for (let j = 1; j <= 128;j++) {
         let Div = document.createElement('div')
         thing.appendChild(Div)
         Div.id = "row"
